@@ -34,10 +34,14 @@
 			<groupId>com.comino</groupId>
 			<artifactId>mavcom</artifactId>
 			<version>0.0.1</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/mavcom-0.0.1.jar</systemPath>
 		</dependency>
 		<dependency>
 			<groupId>com.comino</groupId>
 			<artifactId>mavutils</artifactId>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/mavutils-0.0.1.jar</systemPath>
 			<version>0.0.1</version>
 		</dependency>
 		<dependency>
